@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>술래잡기 미로 게임</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>술래잡기 미로 게임</h1>
+        <div class="game-info">
+            <p>잡힌 횟수: <span id="caught-count">0</span></p>
+            <p>경과 시간: <span id="time-elapsed">0</span>초</p>
+            <p>레벨: <span id="level">1</span></p>
+        </div>
+        <div class="game-area">
+            <div id="player"></div>
+            <div id="catcher"></div>
+        </div>
+        <button id="start-button">게임 시작</button>
+        <p id="game-message">게임을 시작하세요!</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
